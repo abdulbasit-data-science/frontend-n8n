@@ -1,0 +1,57 @@
+:root {
+	--chat--color-primary: #18171c;
+	--chat--color-primary-shade-50: #2d2c31;
+	--chat--color-primary-shade-100: #18171c;
+	
+	--chat--color-secondary: #1e293b;
+	--chat--color-white: #ffffff;
+	--chat--color-light: #f8fafc;
+	--chat--color-dark: #0f172a;
+	--chat--color-medium: #94a3b8;
+
+	--chat--spacing: 1rem;
+	--chat--border-radius: 0.5rem;
+
+	--chat--window--width: 420px;
+	--chat--window--height: 640px;
+
+	--chat--header--padding: var(--chat--spacing);
+	--chat--header--background: var(--chat--color-primary);
+	--chat--header--color: var(--chat--color-white);
+	--chat--heading--font-size: 1.25em;
+	--chat--subtitle--font-size: 0.9em;
+
+	--chat--textarea--height: 50px;
+	--chat--textarea--margin-bottom: 1rem;
+
+	--chat--message--font-size: 1rem;
+	--chat--message--padding: 0.75rem 1rem;
+	--chat--message--border-radius: var(--chat--border-radius);
+	--chat--message--bot--background: var(--chat--color-light);
+	--chat--message--bot--color: var(--chat--color-dark);
+	--chat--message--user--background: var(--chat--color-primary);
+	--chat--message--user--color: var(--chat--color-white);
+}
+
+html,
+body,
+#n8n-chat {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-family: system-ui, -apple-system, sans-serif;
+}
+
+body {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: var(--chat--color-white);
+}
+
+
+
